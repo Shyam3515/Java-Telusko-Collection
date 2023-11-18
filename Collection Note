@@ -1,0 +1,55 @@
+**General
+//collection interface belong to a java.util pacakage[all collection interfaces belong to this  package]
+Collection API/ Collection Framework - It is a concept.
+Collection - It is an Interface and there are some classes which implement these
+Collections - It is the class and it has multiple methods to work with.
+
+=>Collection includes some Interfaces like List, Queue, Set, Map... all these interfaces basically implements or 
+extends the collection interface.
+=> Individually these interfaces have their own class implementation:
+	Example: 1)List we have ArrayList, LinkedList the most famous one and so on...
+			 2)Set --> HashSet, TreeSet
+			 3)Map --> HashMap	
+			 4)Queue --> Dequeue...	
+			 
+=> Integer is basically a wrapper class for the type Int, bcz int is primitive integer class and collection normally 
+work with objects not primitive values, so if you want to store integer numbers you have to use a class Integer.
+
+//By mentioning these generics you can remove the bugs, exaple you have added a number in quotes, 
+then it would be a string instead of integer, then it gives you compile time error.
+
+//We can use List also here instead of collection, if you just want to add numbers and fetch you can use collection,
+and if you want to work with index values we should use List.
+
+
+******SET********
+=> Set extends collection, but the class which implements collection is different and the class name is HashSet.
+=> Set is a collection of unique value, it won't support indexing.
+
+==>TreeSet extends the AbstractSet and implements the NavigationalSet...
+	==> If we goto navigationalSet this interface actually extends a SortedSet...
+*********TreeSet implements Set and the Set extends the collection.*****
+
+
+***&&&&&&&*****
+##### Iterator ######
+On top of collection we have one more Interface called the Iterator.
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. 
+It is called an "iterator" because "iterating" is the technical term for looping.
+
+To use an Iterator, you must import it from the java.util package.
+
+
+
+&&&&&&&&******$$$$ Map %^&*(*&^%$#
+=>Map is not an implementation or it doesn't extend collection Interface but it's a part of collection API.
+Map is a collection of key-value pair. 
+=>A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
+
+=>One object is used as a key (index) to another object (value). It can store different types: String keys and Integer
+values, or the same type, like: String keys and String values:
+
+=>***Difference b/w Hashmap and Hashtable is, if you want to use synchronised version for multiple threads working,
+ then you can use Hashtable. 
+
+					 
