@@ -21,7 +21,7 @@ public class ListCollection {
 		nums.add(9);
 		
 		//indexing values
-		System.out.println(nums.get(2));
+		System.out.println(nums.get(2)); //7
 		
 		//gets the index value of element
 		System.out.println(nums.indexOf(9));
